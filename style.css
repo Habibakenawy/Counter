@@ -1,0 +1,56 @@
+body{
+  color: white;
+}
+
+
+
+#parent{
+    width: 400px;
+  height: 296px;
+  background-color: #1b244b;
+  margin: auto;
+  padding: 20px;
+}
+.reset{
+    display: block;
+    width: 30%;
+    border: none;
+    background-color: #1b244b ;
+    padding: 14px 28px;
+    font-size: 16px;
+  
+    border: solid ; color: white;
+   margin: auto;
+ 
+}
+#team_one{
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+float: left;
+}
+#team_two{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+float: right;
+  }
+  #num_one{
+ background-color: black;
+ width: 7em;
+ height: 7em;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  }
+
+  #num_two{
+    background-color: black;
+    width: 7em;
+    height: 7em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     }
